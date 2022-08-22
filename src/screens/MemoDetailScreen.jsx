@@ -60,13 +60,14 @@ MemoDetailScreen.propTypes = {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
     backgroundColor: '#ffffff',
   },
   memoHeader: {
     backgroundColor: '#467FD3',
     height: 96,
     justifyContent: 'center',
-    padidngVertical: 24,
+    paddingVertical: 24,
     paddingHorizontal: 19,
   },
   memoTitle: {
@@ -81,7 +82,7 @@ const styles = StyleSheet.create({
     lineHeight: 16,
   },
   memoBody: {
-    paddinVertical: 32,
+    paddingVertical: 32,
     paddingHorizontal: 27,
   },
   memoText: {
